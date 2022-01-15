@@ -1,5 +1,7 @@
 import React, { useContext, useEffect, useState, useCallback } from 'react';
 import DetailsContext from '../context/DetailsContext';
+import DetalhesCss from '../style/Detalhes.module.css';
+
 
 function Ingredientes() {
   const MAX_INGREDIENT = 20;
@@ -96,7 +98,7 @@ function Ingredientes() {
   }, [ingredientsList, setTotalIngredientes]);
 
   return (
-    <ul>
+    <ul className={ DetalhesCss.ingredientesContainer }>
       { ingredientsList.map((el) => el) }
     </ul>
   );

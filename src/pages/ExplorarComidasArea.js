@@ -34,7 +34,7 @@ function ExplorarComidasArea() {
   return (
     <>
       <Header title="Explorar Origem" comidasOuBebidas="comidas" />
-      <div>
+      <div className="explorar-container">
         <select
           name="country"
           id="country"

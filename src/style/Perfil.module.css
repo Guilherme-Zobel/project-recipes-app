@@ -1,0 +1,33 @@
+.containerPerfil {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: 86.5vh;
+  background-color: #efefef;
+}
+
+.containerPerfil h4 {
+  font-weight: 500;
+  margin-top: 10%;
+}
+
+.containerPerfil button {
+  padding: 20px 50px;
+  width: 80%;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #ff5e00be, #ffae00ed);
+  color: white;
+  font-size: 20px;
+  margin: 35px 0;
+}
+
+.containerPerfil button:nth-child( 4 ) {
+  width: 40%;
+  padding: 10px 30px;
+  margin-top: 30%;
+  color: rgba(0, 0, 0, 0.774);
+  background: #24997F
+
+
+}

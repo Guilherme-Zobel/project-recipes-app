@@ -4,6 +4,8 @@ import RecipesContext from '../context/RecipesContext';
 import Header from '../components/Header';
 import MenuInferior from '../components/MenuInferior';
 import useRecipe from '../hooks/UseRecipe';
+import ExplorarIngredientes from '../style/ExplorarIngredientes.module.css';
+
 
 function ExplorarComidasIngrediente() {
   const [filterByIngredientMeal, setFilterByIngredientMeal] = useState([]);
@@ -32,7 +34,7 @@ function ExplorarComidasIngrediente() {
   return (
     <>
       <Header title="Explorar Ingredientes" />
-      <div>
+      <div className={ ExplorarIngredientes.itens }>
         { ingredientsLimit && ingredientsLimit.map((ingredient, index) => (
           <Link
             key={ ingredient.idIngredient }
@@ -40,7 +42,7 @@ function ExplorarComidasIngrediente() {
             onClick={ () => setMealsByIngredients(ingredient.strIngredient) }
 
           >
-            <div data-testid={ `${index}-ingredient-card` }>
+            <div className={ ExplorarIngredientes.item } data-testid={ `${index}-ingredient-card` }>
               <img
                 data-testid={ `${index}-card-img` }
                 src={ `https://www.themealdb.com/images/ingredients/${ingredient.strIngredient}-Small.png` }

@@ -1,5 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import ReceitasFavoritasCss from '../style/ReceitasFavoritas.module.css';
+
 
 function FilterButtons({ setRecipes, favorite, favoriteRecipes, doneRecipes }) {
   const applyFilter = (type) => {
@@ -31,7 +33,7 @@ function FilterButtons({ setRecipes, favorite, favoriteRecipes, doneRecipes }) {
   };
 
   return (
-    <div>
+    <div className={ ReceitasFavoritasCss.buttonFilter }>
       <button
         data-testid="filter-by-all-btn"
         type="button"

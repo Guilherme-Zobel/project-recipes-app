@@ -8,6 +8,40 @@
   justify-content: center;
 } */
 
+.explorar-container a {
+  width: 40%;
+  float: right;
+  margin-top: 30px;
+}
+
+.explorar-container select {
+  position: relative;
+  margin-top: 100px;
+  background-color: rgba(124, 123, 123, 0.287);
+  width: 35%;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: -10px;
+  float: left;
+  display: flex;
+  margin: 1px;
+  border: none;
+  margin-left: 8px;
+}
+
+.explorar-container a:nth-child( 2 ) {
+  width: 40%;
+  float: right;
+  margin-top: 60px;
+}
+
+.explorar-container {
+  margin-top: 10px;
+  margin-right: 7%;
+  margin-bottom: 30%;
+}
+
 .meals {
   align-items: center;
   background: #efefef;
@@ -61,7 +95,7 @@
   white-space: nowrap;
 }
 
-.card-recomendations {
+/* .card-recomendations {
   color: #efefef;
   font-size: 25px;
   display: inline-block;
@@ -70,12 +104,12 @@
   text-decoration: none;
   text-align: center;
 
-}
+} */
 
-.img-recomendations {
+/* .img-recomendations {
   max-width: 100%;
   margin: auto;
-}
+} */
 
 .card-image {
   width: 100%;
@@ -90,30 +124,30 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  /* height: 40%; */
   /* background-size: cover; */
   margin: 0 10px;
+  margin-bottom: 10px;
   background-color: #efefef;
   border-radius: 20%;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
   background-image: linear-gradient(45deg, #ff0000b7, rgba(255, 251, 0, 0.808));
   text-decoration: none;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   color: white;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 
 .card:hover {
   background:rgb(255, 157, 0);
   letter-spacing: 1.5px;
-  color: black
+  color: black;
 }
 
 
 .card-name {
   text-align: center;
   font-size: 20px;
-
+  /* margin-top: 10px; */
 }
 
 .start-recipe-btn {

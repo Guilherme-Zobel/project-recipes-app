@@ -2,12 +2,13 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-bottom: 57px;
+  margin-bottom: 49px;
+  background-color: #efefef;
 }
 
 .item {
   display: flex;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.335);
   align-items: center;
   padding: 15px;
   font-size: 20px;
@@ -15,5 +16,9 @@
 
 .itens a {
   text-decoration: none;
-  color: #ff0000ca;
+  color: rgb(77, 75, 73);
+}
+
+.itens h4 {
+  margin: 10%;
 }

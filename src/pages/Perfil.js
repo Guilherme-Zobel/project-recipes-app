@@ -3,6 +3,7 @@ import { useHistory } from 'react-router-dom';
 import Header from '../components/Header';
 import MenuInferior from '../components/MenuInferior';
 import RecipesContext from '../context/RecipesContext';
+import PerfilCss from '../style/Perfil.module.css';
 
 function Perfil() {
   const { startLocalStorage } = useContext(RecipesContext);
@@ -18,47 +19,48 @@ function Perfil() {
   return (
     <>
       <Header title="Perfil" />
+      <div className = { PerfilCss.containerPerfil }>
+        <h4 data-testid="profile-email">
+          Email:
+          {' '}
+          { email }
+        </h4>
 
-      <p data-testid="profile-email">
+        <button
+          type="button"
+          data-testid="profile-done-btn"
+          onClick={ () => history.push('/receitas-feitas') }
 
-        Email:
-        {' '}
-        { email }
-      </p>
+        >
+          {' '}
+          Receitas Feitas
+          {' '}
 
-      <button
-        type="button"
-        data-testid="profile-done-btn"
-        onClick={ () => history.push('/receitas-feitas') }
+        </button>
 
-      >
-        {' '}
-        Receitas Feitas
-        {' '}
+        <button
+          type="button"
+          data-testid="profile-favorite-btn"
+          onClick={ () => history.push('/receitas-favoritas') }
+        >
+          {' '}
+          Receitas Favoritas
+          {' '}
 
-      </button>
+        </button>
+        <button
+          type="button"
+          data-testid="profile-logout-btn"
+          onClick={ handleClick }
+          className={ PerfilCss.btnSair }
 
-      <button
-        type="button"
-        data-testid="profile-favorite-btn"
-        onClick={ () => history.push('/receitas-favoritas') }
-      >
-        {' '}
-        Receitas Favoritas
-        {' '}
+        >
+          {' '}
+          Sair
+          {' '}
 
-      </button>
-      <button
-        type="button"
-        data-testid="profile-logout-btn"
-        onClick={ handleClick }
-
-      >
-        {' '}
-        Sair
-        {' '}
-
-      </button>
+        </button>
+      </div>
       <MenuInferior />
     </>
   );

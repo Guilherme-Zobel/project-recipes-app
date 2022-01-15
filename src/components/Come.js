@@ -30,7 +30,7 @@ function Come({ isLoading }) {
       />
 
       <div className={ DetalhesCss.textContainer }>
-        <p data-testid="recipe-title">{ name }</p>
+        <h1 data-testid="recipe-title">{ name }</h1>
         <p data-testid="recipe-category">{ strCategory }</p>
         <BotaoShareAndFavorite type="comida" />
         <h2>Ingredients</h2>
@@ -39,7 +39,6 @@ function Come({ isLoading }) {
         }
         <h2>Instructions</h2>
         <p data-testid="instructions" className="instructions">{ strInstructions }</p>
-        <h2>Video</h2>
         <iframe
           data-testid="video"
           width="200"
@@ -51,7 +50,7 @@ function Come({ isLoading }) {
           allowFullScreen
         />
         <h2>Recomendadas</h2>
-        <div className="carrossel">
+        <div className={ DetalhesCss.carrossel }>
           { recomendadas
             .map(({ id, name: drinkName, image: drinkImage }, index) => (
               <CardRecomendacao

@@ -3,6 +3,9 @@ import CardRecipes from '../components/CardRecipes';
 import FilterButtons from '../components/FilterButtons';
 import Header from '../components/Header';
 import RecipesContext from '../context/RecipesContext';
+import MenuInferior from '../components/MenuInferior';
+import ReceitasFavoritasCss from '../style/ReceitasFavoritas.module.css';
+
 
 function ReceitasFavoritas() {
   const {
@@ -15,7 +18,7 @@ function ReceitasFavoritas() {
   }, []);
 
   return (
-    <>
+    <div className={ ReceitasFavoritasCss.containerFavorito }>
       <Header title="Receitas Favoritas" />
       <FilterButtons
         setRecipes={ setFavoriteRecipes }
@@ -31,7 +34,8 @@ function ReceitasFavoritas() {
             url={ recipe.type === 'comida' ? 'comidas' : 'bebidas' }
           />))
       }
-    </>
+      <MenuInferior />
+    </div>
   );
 }
 

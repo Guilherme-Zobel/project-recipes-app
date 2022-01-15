@@ -7,7 +7,7 @@ import BotaoReceita from '../components/BotaoReceita';
 import DetailsContext from '../context/DetailsContext';
 import RecipesContext from '../context/RecipesContext';
 import DetalhesCss from '../style/Detalhes.module.css';
-
+import MenuInferior from '../components/MenuInferior';
 
 function Detalhes({ match: { url } }) {
   const {
@@ -66,6 +66,7 @@ function Detalhes({ match: { url } }) {
           ? <Come isLoading={ isLoading } /> : <Bebe isLoading={ isLoading } />
       }
       <BotaoReceita url={ url } comidasOuBebidas={ comidasOuBebidas } />
+      <MenuInferior />
     </div>
   );
 }

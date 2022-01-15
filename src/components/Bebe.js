@@ -27,7 +27,7 @@ function Bebe({ isLoading }) {
       />
       <div className={ DetalhesCss.textContainer }>
         <p data-testid="recipe-title">{ name }</p>
-        <p data-testid="recipe-category">{ `${strCategory} ${alcoholicOrNot}` }</p>
+        <p className={ DetalhesCss.alcoholicOrNot } data-testid="recipe-category">{ `${strCategory} ${alcoholicOrNot}` }</p>
         <BotaoShareAndFavorite type="bebida" />
         <h2>Ingredients</h2>
         {
@@ -36,7 +36,7 @@ function Bebe({ isLoading }) {
         <h2>Instructions</h2>
         <p data-testid="instructions">{ strInstructions }</p>
         <h2>Recomendadas</h2>
-        <div className="carrossel">
+        <div className={ DetalhesCss.carrossel }>
           { recomendadas
             .map(({ id, name: mealName, image: mealImage }, index) => (
               <CardRecomendacao

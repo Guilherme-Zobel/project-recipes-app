@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import React, { useState, useContext, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import DetailsContext from '../context/DetailsContext';
+import DetalhesCss from '../style/Detalhes.module.css';
 
 function BotaoReceita({ url }) {
   const {
@@ -48,7 +49,7 @@ function BotaoReceita({ url }) {
   };
 
   return (
-    <div>
+    <div className={ DetalhesCss.startRecipe }>
       {
         !isInProgress ? (
           progresso !== FINISHED && (

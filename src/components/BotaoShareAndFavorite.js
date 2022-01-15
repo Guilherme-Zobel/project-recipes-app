@@ -8,6 +8,8 @@ import blackHeartIcon from '../images/blackHeartIcon.svg';
 import DetailsContext from '../context/DetailsContext';
 import useFavorite from '../hooks/useFavorite';
 import RecipesContext from '../context/RecipesContext';
+import ReceitasFavoritasCss from '../style/ReceitasFavoritas.module.css';
+
 
 function BotaoShareAndFavorite({ id: propId, index, type }) {
   const {
@@ -33,7 +35,7 @@ function BotaoShareAndFavorite({ id: propId, index, type }) {
   };
   return (
     <>
-      <div>
+      <div className={ ReceitasFavoritasCss.iconButtons }>
         <button
           type="button"
           onClick={ () => {
