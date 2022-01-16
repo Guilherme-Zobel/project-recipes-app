@@ -10,11 +10,12 @@
 .explorar button {
   padding: 20px 50px;
   width: 80%;
-  border-radius: 10px;
-  background-image: linear-gradient(90deg, #ff5e00be, #ff5e00a4);
-  color: white;
+  border-radius: 25px;
+  background-color: #3333339f;
   font-size: 20px;
+  border: solid #ff5e00 2px;
   margin: 65px 0;
+  color: white;
 }
 
 .explorarComidas {
@@ -29,10 +30,11 @@
 .explorarComidas button {
   padding: 20px 50px;
   width: 80%;
-  border-radius: 10px;
-  background-image: linear-gradient(90deg, #ff5e00be, #ff5e00a4);
-  color: white;
+  border-radius: 25px;
+  border: solid #ff5e00 2px;
+  background-color: #3333339f;
   font-size: 20px;
+  color: white;
   margin: 35px 0;
   white-space: nowrap;
 }

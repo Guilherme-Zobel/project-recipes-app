@@ -29,9 +29,9 @@
 
 .textContainer h1 {
   font-size: 35px;
-  margin-left: 33%;
-  margin-bottom: 5%;
   color: #ff0000b7;
+  transform: translate(50%, -50%);
+  margin-right: 150px;
 }
 
 
@@ -115,6 +115,16 @@ li:before {
   background-image: linear-gradient(90deg, #ff5e00be, #ffae00ed);
   color: rgb(0, 0, 0);
   font-size: 15px;
+  margin: 0 60% 20%;
+  white-space: nowrap;
+}
+
+.startRecipe button:disabled {
+  width: 35%;
+  padding: 7px;
+  border-radius: 10px;
+  background: none;
+  color: rgba(128, 128, 128, 0);
   margin: 0 60% 20%;
   white-space: nowrap;
 }

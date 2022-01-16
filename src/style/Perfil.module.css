@@ -8,15 +8,17 @@
 }
 
 .containerPerfil h4 {
-  font-weight: 500;
+  font-weight: 400;
   margin-top: 10%;
+  font-size: 20px;
 }
 
 .containerPerfil button {
   padding: 20px 50px;
   width: 80%;
-  border-radius: 10px;
-  background: linear-gradient(90deg, #ff5e00be, #ffae00ed);
+  border-radius: 15px;
+  border: solid #ff5e00 2px;
+  background-color: #3333339f;
   color: white;
   font-size: 20px;
   margin: 35px 0;
@@ -26,8 +28,12 @@
   width: 40%;
   padding: 10px 30px;
   margin-top: 30%;
-  color: rgba(0, 0, 0, 0.774);
-  background: #24997F
+  border-radius: 15px;
+  background: none;
+  border: none;
+  font-size: 25px;
+  color: #ff5e00;
+  text-decoration:underline
 
 
 }
