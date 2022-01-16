@@ -10,7 +10,7 @@
 .explorar button {
   padding: 20px 50px;
   width: 80%;
-  border-radius: 25px;
+  border-radius: 15px;
   background-color: #3333339f;
   font-size: 20px;
   border: solid #ff5e00 2px;
@@ -30,7 +30,7 @@
 .explorarComidas button {
   padding: 20px 50px;
   width: 80%;
-  border-radius: 25px;
+  border-radius: 15px;
   border: solid #ff5e00 2px;
   background-color: #3333339f;
   font-size: 20px;

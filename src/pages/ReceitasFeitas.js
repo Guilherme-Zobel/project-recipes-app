@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import FilterButtons from '../components/FilterButtons';
 import CardRecipes from '../components/CardRecipes';
 import RecipesContext from '../context/RecipesContext';
+import MenuInferior from '../components/MenuInferior';
 
 function ReceitasFeitas() {
   const {
@@ -31,6 +32,7 @@ function ReceitasFeitas() {
             donePage
           />))
       }
+      <MenuInferior />
     </>
   );
 }
