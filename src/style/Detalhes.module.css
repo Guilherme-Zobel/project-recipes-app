@@ -8,8 +8,6 @@
 }
 
 .imgDetails {
-  display: flex;
-  justify-content: center;
   width: 70%;
   margin-top: 5%;
   object-fit: cover;
@@ -30,8 +28,6 @@
 .textContainer h1 {
   font-size: 35px;
   color: #ff0000b7;
-  transform: translate(50%, -50%);
-  margin-right: 150px;
 }
 
 

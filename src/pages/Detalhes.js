@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import UseRecipe from '../hooks/UseRecipe';
 import Come from '../components/Come';
 import Bebe from '../components/Bebe';
+import Header from '../components/Header';
 import BotaoReceita from '../components/BotaoReceita';
 import DetailsContext from '../context/DetailsContext';
 import RecipesContext from '../context/RecipesContext';
@@ -61,6 +62,7 @@ function Detalhes({ match: { url } }) {
 
   return (
     <div className={ DetalhesCss.container }>
+      <Header title="Detalhes" />
       {
         comidasOuBebidas === 'comidas'
           ? <Come isLoading={ isLoading } /> : <Bebe isLoading={ isLoading } />

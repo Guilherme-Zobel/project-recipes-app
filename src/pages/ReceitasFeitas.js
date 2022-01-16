@@ -4,6 +4,7 @@ import FilterButtons from '../components/FilterButtons';
 import CardRecipes from '../components/CardRecipes';
 import RecipesContext from '../context/RecipesContext';
 import MenuInferior from '../components/MenuInferior';
+import ReceitasFeitasCss from '../style/ReceitasFeitas.module.css';
 
 function ReceitasFeitas() {
   const {

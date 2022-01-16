@@ -1,0 +1,44 @@
+
+.card {
+  width: 70%;
+  margin-left:55px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(45deg, #ff0000b7, rgba(255, 251, 0, 0.808));
+  border-radius: 10%;
+}
+
+.card a {
+  text-decoration: none;
+
+}
+
+.card img {
+  border-radius: 10px;
+}
+
+.card h4 {
+  font-size: 30px;
+  transform: translate(10%);
+  color: white;
+  margin-top: 10px;
+}
+
+
+.card p {
+  margin: 10px;
+  font-size: 20px;
+  color: rgb(129, 95, 95);
+}
+
+.card p:nth-child(1) {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: -20px;
+  margin-top: -5px;
+  margin-bottom: -15px;
+}

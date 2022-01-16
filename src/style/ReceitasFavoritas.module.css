@@ -1,14 +1,8 @@
 .containerFavorito {
-  height: 100vh;
   background: #efefef;
-  
 }
 
-.containerFavorito p:nth-child(2){
-  outline: none;
-  color: red;
-  text-decoration: none;
-  font-size: 20px;
+.containerFavorito h4 {
 }
 
 .buttonFilter button {
@@ -26,14 +20,9 @@
   margin-left: 9px;
 }
 
-.buttonFilter button:hover {
-  background-image: linear-gradient(90deg, #ff5e00be, #ffae00ed);
-  color: #ff0000d7;
-}
 
 .iconButtons button {
   background: none;
+  margin-left: 15%;
   right: 50%;
-  justify-content: center;
-  background-color: rgba(128, 128, 128, 0);
 }

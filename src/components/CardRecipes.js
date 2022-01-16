@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import BotaoShareAndFavorite from './BotaoShareAndFavorite';
+import ReceitasFeitasCss from '../style/ReceitasFeitas.module.css';
 
 function CardRecipes(
   { recipe: { id, name, image, type, area, category, alcoholicOrNot, doneDate, tags },
@@ -10,7 +11,7 @@ function CardRecipes(
     donePage },
 ) {
   return (
-    <div className="card card-favorites">
+    <div className={ReceitasFeitasCss.card }>
       <Link
         to={ `/${url}/${id}` }
       >
@@ -20,7 +21,7 @@ function CardRecipes(
           alt={ name }
           className="card-image"
         />
-        <p data-testid={ `${index}-horizontal-name` }>{ name }</p>
+        <h4 data-testid={ `${index}-horizontal-name` }>{ name }</h4>
         <p data-testid={ `${index}-horizontal-top-text` }>
           {
             type === 'comida' ? (`${area} - ${category}`) : (`${alcoholicOrNot}`)
