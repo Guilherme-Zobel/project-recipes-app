@@ -2,9 +2,6 @@
   background: #efefef;
 }
 
-.containerFavorito h4 {
-}
-
 .buttonFilter button {
   padding: 10px;
   width: 30%;
@@ -25,4 +22,12 @@
   background: none;
   margin-left: 15%;
   right: 50%;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 2000px) {
+
+.iconButtons button {
+  margin-left: 33%;
+}
+
 }

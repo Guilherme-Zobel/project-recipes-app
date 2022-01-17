@@ -68,7 +68,6 @@ function CategoryFilters({ comidasOuBebidas }) {
 
   return (
     <div className={ comidasOuBebidas === 'comidas' ? categoryCss.category : categoryCss.categoryDrink }>
-      categoryCss.category
       <button
         data-testid="All-category-filter"
         type="button"

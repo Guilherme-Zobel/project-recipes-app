@@ -125,3 +125,90 @@ li:before {
   white-space: nowrap;
 }
 
+@media only screen and (min-width: 900px) and (max-width: 2000px) {
+  .container {
+    margin-bottom: 0%;
+  }
+  
+  .imgDetails {
+    width: 25%;
+    margin-top: 1%;
+    object-fit: cover;
+    margin-bottom: 30px;
+    margin-left: 40%;
+    border-radius: 70%;
+  }
+
+  .textContainer h1 {
+    padding-right: 15px;
+    font-size: 55px;
+    margin-left: 50%;
+  }
+
+.alcoholicOrNot {
+    font-size: 25px;
+    margin-left: 45%;
+    margin-top: 2%;
+  }
+
+  .textContainer h2 {
+    padding-right: 15px;
+    font-size: 35px;
+    margin-left: 45%;
+    margin-bottom: 2%;
+  }
+
+  .textContainer p {
+    padding-right: 15px;
+    font-size: 25px;
+    margin-left: 25%;
+  }
+
+  /* .textContainer p:nth-child() {
+    padding-right: 15px;
+    font-size: 30px;
+    margin-left: 45%;
+  } */
+
+  li {
+    margin-left: 42%;
+    font-size: 25px;
+  }
+  .startRecipe button {
+    width: 10%;
+    padding: 15px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin: 0 85% 58px;
+    white-space: nowrap;
+  }
+  
+  .imgRecomendations {
+    max-width: 100%;
+    margin: auto;
+    border-radius: 20px;
+  }
+  .cardRecomendations p {
+    color: white;
+    font-size: 20px;
+    margin-right: 10%;
+  }
+
+  .carrossel {
+    height: 250px;
+    overflow-x: auto;
+    overflow-y: auto;
+    white-space: nowrap;
+    border-radius: 20px;
+    margin-left: 25%;
+  }
+
+  .cardRecomendations {
+    display: inline-block;
+    width: 150px;
+    height: 75%;
+    margin: 2px;
+    text-align: center;
+  }
+}

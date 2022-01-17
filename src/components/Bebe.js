@@ -27,7 +27,7 @@ function Bebe({ isLoading }) {
       />
       <div className={ DetalhesCss.textContainer }>
         <h1 data-testid="recipe-title">{ name }</h1>
-        <p className={ DetalhesCss.alcoholicOrNot } data-testid="recipe-category">{ `${strCategory} ${alcoholicOrNot}` }</p>
+        <h3 className={ DetalhesCss.alcoholicOrNot } data-testid="recipe-category">{ `${strCategory} ${alcoholicOrNot}` }</h3>
         <BotaoShareAndFavorite type="bebida" />
         <h2>Ingredients</h2>
         {
