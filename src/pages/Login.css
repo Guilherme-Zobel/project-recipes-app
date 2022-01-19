@@ -177,4 +177,18 @@ form button:disabled {
   background: linear-gradient(to right, #1e3c72, #2a5298);
 }
 
-@media 
+
+@media only screen and (min-width: 900px) and (max-width: 2560px) {
+.title-page {
+    font-size: 40px;
+
+  }
+main.container {
+  width: 20%;
+  height: 60%;
+}
+
+.footer span {
+margin-left: 5%;
+}
+}
