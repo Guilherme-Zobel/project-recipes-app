@@ -16,6 +16,11 @@
   border-radius: 70%;
 }
 
+span {
+  margin-left: 44%;
+}
+
+
 .alcoholicOrNot {
   color: rgb(219, 30, 30);
   text-decoration: underline;
@@ -28,12 +33,13 @@
 .textContainer h1 {
   font-size: 35px;
   color: #ff0000b7;
+  margin-left: 33%;
 }
 
 
 .textContainer h2 {
   font-size: 25px;
-  margin-top: 10%;
+  margin-top: 15%;
   margin-left: 5%;
   margin-bottom: 5%;
 }
@@ -44,6 +50,7 @@
   width: 80%;
   border-radius: 20px;
   margin-left: 8%;
+  margin-top: 5%;
 }
 
 
@@ -125,9 +132,14 @@ li:before {
   white-space: nowrap;
 }
 
-@media only screen and (min-width: 900px) and (max-width: 2000px) {
+@media only screen and (min-width: 900px) and (max-width: 2560px) {
   .container {
     margin-bottom: 0%;
+  }
+
+  span {
+    margin-left: 51%;
+    font-size: 25px;
   }
   
   .imgDetails {
@@ -142,7 +154,7 @@ li:before {
   .textContainer h1 {
     padding-right: 15px;
     font-size: 55px;
-    margin-left: 50%;
+    margin-left: 48%;
   }
 
 .alcoholicOrNot {
@@ -161,7 +173,8 @@ li:before {
   .textContainer p {
     padding-right: 15px;
     font-size: 25px;
-    margin-left: 25%;
+    margin-left: 10%;
+    margin-right: 5%;
   }
 
   /* .textContainer p:nth-child() {
@@ -182,6 +195,12 @@ li:before {
     font-size: 15px;
     margin: 0 85% 58px;
     white-space: nowrap;
+  }
+
+  .textContainer iframe {
+    width: 50%;
+    height: 400px;
+    margin-left: 25%;
   }
   
   .imgRecomendations {

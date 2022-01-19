@@ -31,7 +31,7 @@ function Come({ isLoading }) {
 
       <div className={ DetalhesCss.textContainer }>
         <h1 data-testid="recipe-title">{ name }</h1>
-        <p data-testid="recipe-category">{ strCategory }</p>
+        <span data-testid="recipe-category">{ strCategory }</span>
         <BotaoShareAndFavorite type="comida" />
         <h2>Ingredients</h2>
         {

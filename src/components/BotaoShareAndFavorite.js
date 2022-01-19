@@ -10,7 +10,6 @@ import useFavorite from '../hooks/useFavorite';
 import RecipesContext from '../context/RecipesContext';
 import ReceitasFavoritasCss from '../style/ReceitasFavoritas.module.css';
 
-
 function BotaoShareAndFavorite({ id: propId, index, type }) {
   const {
     id: contextId,
