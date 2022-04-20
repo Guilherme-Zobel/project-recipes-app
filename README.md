@@ -1,6 +1,6 @@
 # Recipes App
 
-Último projeto do módulo de Front-end da [Trybe](https://github.com/betrybe) em grupo realizado num período de 10 dias. Feito em colaboração com [Lygia Dias](https://github.com/LygiaDias), [Guilherme Zobel](https://github.com/Guilherme-Zobel) e [Guilherme Polippo](https://github.com/luispolippo))
+Último projeto do módulo de Front-end da [Trybe](https://github.com/betrybe) em grupo utilizando React(Hooks e Context API) realizado num período de 10 dias. Feito em colaboração com [Lygia Dias](https://github.com/LygiaDias), [Guilherme Zobel](https://github.com/Guilherme-Zobel) e [Guilherme Polippo](https://github.com/luispolippo))
 
 **Resolução Recomendada: Mobile (375 x 667)**
 
