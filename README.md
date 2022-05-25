@@ -7,7 +7,7 @@
 </br>
 
 ## 💻 O projeto
-Último projeto do módulo de Front-end da [Trybe](https://github.com/betrybe) em grupo realizado num período de 10 dias. O projeto consistia em colocar em prática todo aprendizado do módulo criando um app de receitas. Foi um grande o aprendizado tanto de hard skills quanto de soft skills com os colegas e mentores do curso
+Último projeto do módulo de Front-end da [Trybe](https://github.com/betrybe) em grupo realizado num período de 10 dias. O projeto consistia em colocar em prática todo aprendizado do módulo criando um app de receitas. Foi um grande o aprendizado tanto de hard skills quanto de soft skills com os colegas e mentores do curso.
 
 ## 🧰 Tecnologias usadas
 * React JS
